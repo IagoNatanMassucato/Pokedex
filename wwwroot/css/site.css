@@ -1,0 +1,115 @@
+﻿.card a {
+  text-decoration: none;
+  color: black;
+}
+
+.card img{
+  background-color: blanchedalmond;
+}
+
+.card:hover{
+  border: 3px solid red;
+  transform: scale(1.2);
+  transition: 1s;
+  z-index: 1000;
+}
+
+.tipo a{
+  color:white;
+}
+
+.tipo a:hover{
+  color:white;
+  opacity: 0.80;
+}
+
+.tipo-Normal{
+  background-color: #aa9;
+}
+
+.tipo-Fogo{
+  background-color: #f42;
+}
+
+.tipo-Agua{
+  background-color: rgb(4, 0, 255);
+}
+
+.tipo-Eletrico{
+  background-color: rgb(217, 255, 0);
+}
+
+.tipo-Planta{
+  background-color: rgb(0, 170, 14);
+}
+
+.tipo-Gelo{
+  background-color: rgb(0, 217, 255);
+}
+
+.tipo-Lutador{
+  background-color: rgba(230, 97, 74, 0.76);
+}
+
+.tipo-Venenoso{
+  background-color: rgb(105, 0, 91);
+}
+
+.tipo-Terra{
+  background-color: rgba(221, 162, 85, 0.61);
+}
+
+.tipo-Voador{
+  background-color: rgb(69, 233, 132);
+}
+
+.tipo-Psiquico{
+  background-color: rgb(231, 99, 180);
+}
+
+.tipo-Inseto{
+  background-color: rgb(148, 231, 40);
+}
+
+.tipo-Pedra{
+  background-color: rgba(122, 75, 13, 0.596);
+}
+
+.tipo-Fantasma{
+  background-color: rgb(140, 0, 255);
+}
+
+.tipo-Dragao{
+  background-color: rgb(51, 5, 124);
+}
+
+.tipo-Metalico{
+  background-color: rgb(123, 123, 139);
+}
+
+.tipo-Fada{
+  background-color: rgb(212, 152, 204);
+}
+
+label {
+  font-size: 20px;
+}
+
+.titulo{
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 15px;
+}
+
+hr{
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.btn-outline-dark{
+  height: 75px;
+  display: inline-flex;
+  align-items: center;
+}
